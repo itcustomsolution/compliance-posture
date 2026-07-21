@@ -1,6 +1,6 @@
 # IT Custom Solution LLC · Compliance Posture
 
-Public-facing compliance documentation for procurement officers, primes, and partners. Live canonical pages on **[itcustomsolution.com/compliance-posture](https://itcustomsolution.com/compliance-posture)** — this repo mirrors the highlights for buyers who'd rather read in GitHub.
+Public-facing compliance documentation for procurement officers, primes, and partners. Live canonical pages on **[itcustomsolution.com/compliance-posture](https://itcustomsolution.com/compliance-posture)**. This repo mirrors the highlights for buyers who'd rather read in GitHub.
 
 ## Posture summary
 
