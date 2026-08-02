@@ -58,6 +58,7 @@ We publish a deliberately narrow list of operational claims. We do NOT assert:
 - HUBZone certification (parent firm denied 2023; rep-and-cert disclosure on solicitations is "HUBZone: no")
 - GSA Schedule / MAS holder status (we are pursuing, not holding)
 - 8(a) certified (application submitted; under SBA review)
+- NYS MWBE (not held; the 2026 Fast Track route was closed to ITC as a Delaware-formed entity, and no standard application is pending today)
 - ISO 27001 certification (not pursued; controls operational under NIST 800-171)
 - FedRAMP authorization (we use FedRAMP-authorized substrates; ITC itself is not authorized)
 - TAA compliance without solicitation-specific scoping
