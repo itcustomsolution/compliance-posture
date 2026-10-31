@@ -1,79 +1,43 @@
 # IT Custom Solution LLC · Compliance Posture
 
-Public-facing compliance documentation for procurement officers, primes, and partners. Live canonical pages on **[itcustomsolution.com/compliance-posture](https://itcustomsolution.com/compliance-posture)**. This repo mirrors the highlights for buyers who'd rather read in GitHub.
+Buyer guidance on security scope, evidence and procurement representations. The [current ITC compliance posture](https://itcustomsolution.com/compliance-posture) is the canonical public page; this README summarizes the boundaries to check before an engagement.
 
-## Posture summary
+## Scope before commitment
 
-| Framework | Status | Detail |
-|---|---|---|
-| **NIST SP 800-171 Rev. 3** | 🟡 No current assessment asserted | We do not assert a current SPRS score or a completed self-assessment. Assessment scope, framework revision and evidence are established per engagement. Not a third-party DFARS 252.204-7012 / CMMC assessment. |
-| **CMMC Level 2** | 🟡 Readiness stance, not certified | We have not yet scheduled a formal Level 2 assessment with a C3PAO. When a solicitation requires it, we scope the C3PAO engagement into the proposal cost basis, OR team with a prime that already holds the cert. |
-| **Section 508 / WCAG 2.2 AA** | 🟡 Conformance not established | Our published [accessibility status report](https://itcustomsolution.com/accessibility-conformance-report.pdf) (9 Sept 2026) states that full WCAG 2.2 AA conformance is not established for the current website. It is a scoped status report, not a completed VPAT or an independent audit. |
-| **NIST SP 800-53** | 🟡 Subset operational | Applicable controls operational under our SaaS infrastructure (Cloudflare + Railway + Supabase). Not a FedRAMP authorization. |
-| **FedRAMP** | ❌ Not authorized | We use FedRAMP Moderate substrates (Azure GovCloud, GCP federated) and document the inheritance, but ITC itself is not a FedRAMP-authorized service. |
-| **SOC 1 / SOC 2** | ❌ Not certified · not in progress | We do not claim SOC certifications. If a solicitation requires SOC 1 or SOC 2, ITC is a NO-BID unless the prime holds the certification and ITC operates as a subcontractor within the prime's authorization boundary. |
-| **HIPAA** | 🟡 BAA-capable | Will sign Business Associate Agreement when a customer engagement involves PHI. |
+A security review, a software feature and a certification are different things. ITC can discuss a scoped requirements review, evidence gaps and a remediation plan. An engagement must identify the system, information, framework, responsibilities and acceptance criteria that apply. Public source code and test results do not establish certification or an accepted live customer workflow.
 
-## Identifiers (procurement-officer reference)
+## Claims and evidence boundaries
 
-- **Legal name** · IT Custom Solution LLC
-- **UEI** · PR9KWJPM4JU9
-- **CAGE** · 91CE1
-- **EIN** · (available under mutual NDA · canonical on SAM.gov)
-- **NYC MBE Cert** · MWCERT2022-353 (valid through 2027-05-31)
-- **SBA 8(a)** · Application submitted 2026, under SBA review
-- **SAM.gov** · Registered, active
+| Topic | Boundary |
+| --- | --- |
+| NIST SP 800-171 / SPRS | No current SPRS score or completed assessment is asserted here. Verify the applicable framework revision, system boundary, assessment and submission evidence for the requirement. |
+| CMMC | ITC does not claim CMMC certification or a completed or scheduled C3PAO assessment. Readiness work is not certification. |
+| NIST SP 800-53 / FedRAMP | No blanket control implementation or ITC FedRAMP authorization is asserted. Any provider authorization and inherited controls must be checked for the actual service and workload. |
+| SOC 1 / SOC 2, ISO 27001 | ITC does not claim these attestations or certifications. |
+| Section 508 / WCAG 2.2 AA | Full conformance is not established. The published [accessibility status report](https://itcustomsolution.com/accessibility-conformance-report.pdf) is scoped reporting, not a completed VPAT or independent audit. |
+| Healthcare information | This page makes no clinical or HIPAA certification claim. Data handling, access controls and any required agreement must be reviewed before an engagement involving sensitive records. |
+| Accounting | No DCAA-audited or DCAA-approved accounting system is asserted. |
 
-## Insurance
+A prime contractor's credentials do not automatically cover a subcontractor. Check the requirements for each party and system before agreeing work share. Budgeting for an assessment does not satisfy a credential required at award or performance.
 
-- **Workers compensation** · Hartford-backed, on-policy continuously
-- **General liability** · Hartford-backed, bound on-award per project
-- **COI delivery** · <24 hour SLA for any client / portal request
+## Procurement references
 
-## Live documents
+- Consult the [current credentials page](https://itcustomsolution.com/certifications) and the issuing authority's records for applicable status, scope and expiry.
+- SBA 8(a) participation, HUBZone certification, a direct GSA MAS award and NYS MWBE status are not claimed here. An application or registration is not a certification or award.
+- Insurance coverage, limits, endorsements and certificates must be verified for the engagement. This README makes no coverage or certificate-delivery SLA commitment.
 
-| Document | Location | Format |
-|---|---|---|
-| Capability statement | https://itcustomsolution.com/capability-statement.pdf | PDF |
-| Accessibility status report (not a VPAT) | https://itcustomsolution.com/accessibility-conformance-report.pdf | PDF |
-| Privacy policy | https://itcustomsolution.com/privacy | Web |
-| Security policy | https://itcustomsolution.com/compliance-posture | Web |
-| Past performance | https://itcustomsolution.com/past-performance | Web |
+## Public documents
 
-## How to request compliance documentation or an NDA package
+| Document | Location |
+| --- | --- |
+| Capability statement | [ITC capability statement](https://itcustomsolution.com/capability-statement.pdf) |
+| Accessibility status report | [Scoped accessibility report](https://itcustomsolution.com/accessibility-conformance-report.pdf) |
+| Privacy policy | [Privacy](https://itcustomsolution.com/privacy) |
+| Security and procurement scope | [Compliance posture](https://itcustomsolution.com/compliance-posture) |
+| Published engagement evidence | [Past performance](https://itcustomsolution.com/past-performance) |
 
-Email **sales@itcustomsolution.com** with:
-1. Your buying organization name
-2. The contract vehicle / solicitation reference (if applicable)
-3. NDA preference (your template or ours)
+## Discuss the required evidence
 
-We respond within one business day.
+See [cybersecurity and compliance advisory](https://itcustomsolution.com/services/cybersecurity) for the service scope. [Describe your requirement](https://itcustomsolution.com/contact) or email [sales@itcustomsolution.com](mailto:sales@itcustomsolution.com) with the buying organization, solicitation or work package, required evidence and relevant deadline. Keep credentials, private bid material and sensitive personal records out of public issues and initial inquiries.
 
-## What we don't claim
-
-We publish a deliberately narrow list of operational claims. We do NOT assert:
-
-- A current SPRS score, a completed NIST SP 800-171 self-assessment, or CMMC certification
-- Section 508 / WCAG 2.2 AA conformance
-- A DCAA-audited or DCAA-approved accounting system
-- SOC 1 / SOC 2 in any form (certified, in progress, preparing, readiness, equivalent)
-- HUBZone certification (parent firm denied 2023; rep-and-cert disclosure on solicitations is "HUBZone: no")
-- GSA Schedule / MAS holder status (we are pursuing, not holding)
-- 8(a) certified (application submitted; under SBA review)
-- NYS MWBE (not held; the 2026 Fast Track route was closed to ITC as a Delaware-formed entity, and no standard application is pending today)
-- ISO 27001 certification (not pursued)
-- FedRAMP authorization (we use FedRAMP-authorized substrates; ITC itself is not authorized)
-- TAA compliance without solicitation-specific scoping
-- Brand-name flow-downs from primes without written sub-agreement
-
-If a solicitation requires any of these as a hard pass/fail gate, we either (a) team with a prime that holds it, (b) scope the certification cost into the proposal, or (c) NO-BID.
-
-## Contact
-
-- **Sales / RFP responses** · sales@itcustomsolution.com
-- **Compliance questions** · lu@itcustomsolution.com
-- **Phone** · +1 (646) 671-3399
-
----
-
-<sub>This repo mirrors the canonical compliance posture published at https://itcustomsolution.com/compliance-posture. The live page is the source of truth; this repo is a GitHub-native mirror for procurement officers who prefer reading documentation alongside the codebase.</sub>
+Supporting records, permitted disclosure, delivery resources and any NDA are reviewed before sharing or making a commitment. An inquiry does not establish a certification, price, response-time promise or contract.
